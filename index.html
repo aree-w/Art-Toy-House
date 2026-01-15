@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Toy House</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js">
+    </script>
+
+    <!-- jQuery CDN (ใช้ตรง to top) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <div id="header">
+            <div class="menubar">
+                <div class="boxmenu_left">
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-item active"><a href="#home">หน้าแรก</a></li>
+                            <li class="menu-item"><a href="feature.html">คอมมูนิตี้</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- boxmenu_left -->
+
+                <div class="box_logo">
+                    <a href="index.html">
+                        <img src="images/LOGO_midterm.png" alt="LOGO">
+                    </a>
+                </div>
+                <!-- box logo -->
+
+                <div class="boxmenu_right">
+                    <div class="top">
+                        <div class="box_ac_nt">
+                            <div class="account">
+                                <i class="fa-regular fa-user"></i>
+                            </div> <!-- account -->
+                            <div class="notification">
+                                <i class="fa-regular fa-bell"></i>
+                            </div> <!-- notification -->
+                        </div>
+                        <!-- box account,notification-->
+
+                        <div class="circle_notification">
+                        </div> 
+                        <!-- circle notification -->
+                    </div>
+                    <!-- top -->
+
+                    <div class="bottom">
+                        <nav>
+                            <ul class="menu2">
+                                <li class="menu2-item"><a href="feature2.html">คอลเลกชัน</a></li>
+                                <li class="menu2-item"><a href="#contact">ติดต่อเรา</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- bottom -->
+
+                </div>
+                <!-- booxmenu_right -->
+            </div>
+            <!-- menu bar -->
+
+            <div class="banner">
+                <div class="banner_text">
+                    <h1>ART TOY HOUSE<br>COMMUNITY</h1>
+                    <p id="aboutus">ยินดีต้อนรับ เหล่าแฟนๆ อาร์ตทอยตัวยง <br>
+                        สู่คอมมูนิตี้ ART TOY HOUSE ที่เปรียบเสมือนบ้าน <br>
+                        ที่สมาชิกทุกคนสามารถพูดคุยแลกเปลี่ยนความเห็น และโชว์ของ <br>
+                        อย่ารอช้า! รีบเข้ามาเป็นส่วนหนึ่งของครอบครัวอาร์ตทอยเฮาส์กันเลย</p>
+                    <button id="register">สมัครสมาชิก</button>
+
+                    <!-- Popup Form -->
+                    <div id="popupForm" class="popup">
+                        <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <h2>สมัครสมาชิก</h2>
+                        <form>
+                            <label for="username" class="label-username" >ชื่อผู้ใช้</label>
+                            <input type="text" id="username" name="username" required><br><br>
+        
+                            <label for="email"  class="label-email">Email</label>
+                            <input type="email" id="email" name="email" required><br><br>
+  
+                            <button type="submit">สมัคร</button>
+                        </form>
+                        </div>
+                    </div>
+                    <!-- Popup Form -->
+            </div>
+            <!-- banner text -->
+
+                <div class="banner_image">
+                    <img src="images/banner_image.png" alt="banner" class="image_bn">
+                    <div class="ellipse"></div>
+                </div>
+                <!-- banner image -->
+
+                <div class="line"></div>
+                <!-- line -->
+
+            </div>
+            <!-- banner -->
+
+        </div>
+        <!-- header -->
+
+        <div id="Friends_Collection">
+            <div class="head_collection">
+                <div class="boxhead_left">
+                    <p id="title">คอลเลกชันของเพื่อนๆ</p>
+                    <p id="detail">พื้นที่แห่งการโชว์ของ ไม่ว่าจะเป็นตัว secret รุ่นหายาก หรือตัวที่อยากโชว์สุดๆ</p>
+                </div>
+                <!-- box head left -->
+
+                <div class="boxhead_right">
+                    <button id="create">
+                        <i class="fa-solid fa-plus"></i> เริ่มสร้างคอลเลกชัน
+                    </button>
+                </div>
+                <!-- box head right -->
+            </div>
+            <!-- head collection-->
+
+            <div class="box_collection">
+                <div class="box_all">
+                    <div class="box1">
+                        <div class="inbox1">
+                            <img src="images/box1_1.png" alt="01" class="image1">
+                            <div class="circle_inbox">
+                                ขออวด <br> ตัวนี้
+                            </div>
+                            <img src="images/box1_2.png" alt="02" class="image2">
+                            <img src="images/box1_3.png" alt="03"
+                            class="image3">
+                            <img src="images/box1_4.png" alt="04"
+                            class="image4">
+                            <img src="images/box1_5.png" alt="05" class="image5">
+                        </div>
+                    </div>
+                    <!-- Box 1 -->
+
+                    <div class="box2">
+                        <div class="inbox2">
+                            <img src="images/box2_1.png" alt="06"
+                            class="image6">
+                            <img src="images/box2_2.png" alt="07"
+                            class="image7">
+                            <img src="images/box2_3.png" alt="08" class="image8">
+                        </div>
+                    </div>
+                    <!-- Box 2 -->
+                </div>
+                <!-- box all -->
+            </div>
+            <!-- box collection -->
+
+            <div class="details_collection">
+                <div class="details_all">
+                    <div class="box1_detail">
+                        <div class="box_profile">
+                            <div class="addfriend">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <img src="images/profile_01.jpg" alt="profile1" class="profile">
+                        </div>
+                        <!-- box profile -->
+                        <p class="name">คลั่งไคล้การจุ่ม</p>
+                        <div class="box_role">
+                            สมาชิกยอดนิยม
+                        </div>
+                        <p class="post">ขออนุญาตอวด hirono secret ตัวแรกในคอลนะครับเพื่อนๆ</p>
+                        <p class="new-post">ขออนุญาตอวด...</p>
+                        <div class="time">อัปเดทคอลเลกชันเมื่อ 8 ชม. ที่แล้ว </div>
+                        <p class="new-time">อัปเดทคอลเลกชันเมื่อ 8 ชม...</p>
+
+                        <div class="like">
+                            <i class="fa-regular fa-heart"></i> 
+                            <p class="textlike">208</p>
+                        </div>
+                    </div>
+                    <!-- box1 detail -->
+
+                    <div class="box2_detail">
+                        <div class="box_profile2">
+                            <div class="addfriend">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <img src="images/profile_02.jpg" alt="profile2" class="profile">
+                        </div>
+                        <!-- box profile2 -->
+                        <p class="name2">หัวใจat</p>
+                        <div class="box_role2">
+                            สมาชิกใหม่
+                        </div>
+                        <p class="post2">แก๊งเด็กๆ อนุบาลขอ..</p>
+                        <p class="new-post2">แก๊งเด็กๆ อนุบาลของเรา น่ารักมั้ยทุกคน</p>
+                        <div class="time2">อัปเดทคอลเลกชันเมื่อ 10 ชม...  </div>
+                        <p class="new-time2">อัปเดทคอลเลกชันเมื่อ 10 ชม. ที่แล้ว</p>
+
+                        <div class="like2">
+                            <i class="fa-regular fa-heart"></i>
+                            <p class="textlike">67</p>
+                        </div>
+                    </div>
+                    <!-- box2 detail -->
+                </div>
+                <!-- details all -->
+
+                <div class="arrow">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <!-- arrow right-->
+
+                <div class="dot">
+                    <div class="dot1"></div>
+                    <div class="dot2"></div>
+                </div>
+                <!-- dot -->
+            </div>
+            <!-- details_collection -->
+        </div>
+        <!-- Friends Collection -->
+
+        <div id="community">
+            <div class="head_community">
+                <p id="title_community">พื้นที่สนทนา</p>
+                <div class="line_community"></div>
+                <p id="detail_community">สมาชิกสามารถพูดคุย สอบถาม แลกเปลี่ยน หรือซื้อขายเกี่ยวกับ Art Toy </p>
+            </div>
+            <!-- head community -->
+
+            <div class="forum1">
+                <div class="forum1_all">
+
+                    <div class="box_forum">
+                        <span class="lets-icons--view-alt-fill"></span>
+                        <!-- icon จาก iconify -->
+                        <div class="profile_forum">
+                            <div class="addfriend_forum">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <img src="images/profile_03.jpg" alt="profile3" class="profile">
+                        </div>
+                        <img src="images/post_01.png" alt="post01" class="post_forum">
+                        <p class="name_post">เจ้าเหมียว</p>
+                        <p class="caption_post">รีวิวจุ่มเด็กแฝด Zsiga Twins <br> น่ารักจนใจเจ็บ </p>
+                        <div class="room_post">
+                            รีวิว Art Toy
+                        </div>
+                        <p class="views_post">103</p>
+                    </div>
+                    <!-- box forum 1 -->
+
+                    <div class="box_forum">
+                        <span class="lets-icons--view-alt-fill"></span>
+                        <!-- icon จาก iconify -->
+                        <div class="profile_forum">
+                            <div class="addfriend_forum">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <img src="images/profile_04.jpg" alt="profile4" class="profile">
+                        </div>
+                        <img src="images/post_02.jpg" alt="post02" class="post_forum">
+                        <p class="name_post">เจตครับ</p>
+                        <p class="caption_post">หาแลกน้องร่มดำ v.3 ครับ <br> กล่องกับการ์ดครบนะครับ </p>
+                        <div class="room_post">
+                            มาแลก Art Toy กัน
+                        </div>
+                        <p class="views_post">68</p>
+                    </div>
+                    <!-- box forum 2 -->
+
+                    <div class="box_forum">
+                        <span class="lets-icons--view-alt-fill"></span>
+                        <!-- icon จาก iconify -->
+                        <div class="profile_forum">
+                            <div class="addfriend_forum">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <img src="images/profile_05.jpg" alt="profile5" class="profile">
+                        </div>
+                        <img src="images/post_03.jpg" alt="post03" class="post_forum">
+                        <p class="name_post">หมดเป๋า</p>
+                        <p class="caption_post">อาร์ตทอยน้องใหม่ Inosoul <br> จากทาง Pop Mart </p>
+                        <div class="room_post">
+                            Art Toy ใหม่ๆ
+                        </div>
+                        <p class="views_post">34</p>
+                    </div>
+                    <!-- box forum 3 -->
+                </div>
+                <!-- forum1 all -->
+            </div>
+            <!-- forum1 -->
+
+            <div class="forum2">
+                <div class="forum2_all">
+
+                    <div class="box_forum">
+                        <span class="lets-icons--view-alt-fill"></span>
+                        <!-- icon จาก iconify -->
+                        <div class="profile_forum">
+                            <div class="addfriend_forum">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <img src="images/profile_06.jpg" alt="profile6" class="profile">
+                        </div>
+                        <img src="images/post_04.jpg" alt="post04" class="post_forum">
+                        <p class="name_post">All ArtToy</p>
+                        <p class="caption_post">ปล่อยน้อง ozai ตัวนี้ค่า <br> จุ่มแล้วได้น้องซ้ำTT </p>
+                        <div class="room_post">
+                            หาบ้านให้เด็กๆ
+                        </div>
+                        <p class="views_post">149</p>
+                    </div>
+                    <!-- box forum 4 -->
+
+                    <div class="box_forum">
+                        <span class="lets-icons--view-alt-fill"></span>
+                        <!-- icon จาก iconify -->
+                        <div class="profile_forum">
+                            <div class="addfriend_forum">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <img src="images/profile_07.jpeg" alt="profile7" class="profile">
+                        </div>
+                        <img src="images/post_05.png" alt="post05" class="post_forum">
+                        <p class="name_post">เดินไปเรื่อย</p>
+                        <p class="caption_post">ร้านรวม Art Toy ลับๆ <br> ราคาดี ในจังหวัดเพชรบุรี </p>
+                        <div class="room_post">
+                            พิกัด Art Toy
+                        </div>
+                        <p class="views_post">278</p>
+                    </div>
+                    <!-- box forum 5 -->
+
+                    <a href="feature.html">
+                        <div class="box_linkpage">
+                            <p class="invite1">เข้าสู่คอมมูนิตี้เลย</p>
+                            <p class="invite2">สมาชิกคนอื่นๆ รอคุณอยู่</p>
+    
+                            <img src="images/linkpage_image.png" alt="imagelinkpage" class="image_linkpage">
+    
+                            <!-- icon จาก iconify -->
+                            <span class="iwwa--arrow-right"></span>
+                            
+                        </div>
+                        <!-- box link page -->
+                    </a>
+                    <!-- box link page -->
+
+                </div>
+                <!-- forum2 all -->
+            </div>
+            <!-- forum2 -->
+        </div>
+        <!-- Community -->
+
+        <div id="activity">
+
+            <div class="shutter"></div>
+
+            <div class="box_activity">
+                <img src="images/activity_image.png" alt="activity" class="image_activity">
+
+                <div class="inputbox">
+
+                    <p class="text_question">อยากให้มีกิจกรรมอะไร</p>
+
+                    <!-- textarea ใช้เวลาอยากได้กล่องรับข้อความแบบยาวๆ -->
+                    <textarea name="activity" id="inputbox_activity" placeholder="พิมพ์กิจกรรมที่คุณอยากให้มี..."></textarea>
+
+                    <div class="box_send">
+                        <span class="prime--send"></span>
+                    </div>
+
+                </div>
+                <!-- Input Box -->
+
+                <button id="join">เข้าร่วม <br> กิจกรรม</button>
+                <div id="circle_activity"></div>
+
+            </div>
+            <!-- box activity -->
+        </div>
+        <!-- Activity -->
+
+        <div id="news">
+            <p id="title_news">ข่าวสารเกี่ยวกับอาร์ตทอย</p>
+
+            <div class="news_all">
+                <div class="box_news">
+                    <img src="images/news_01.jpg" alt="news01" class="image_news">
+                    <div class="line_news"></div>
+                    <p class="name_news">ครั้งแรก ! THAI ART TOY FEST : สยามเด็กเล่น </p>
+                    <div class="circle_news">NEW</div>
+                </div>
+                <!-- box news 1 -->
+
+                <div class="box_news">
+                    <img src="images/news_02.jpg" alt="news02" class="image_news">
+                    <div class="line_news"></div>
+                    <p class="name_news">เตรียมพบกับนิทรรศการ HONG KONG <br>ART TOY ครั้งแรกในประเทศไทย </p>
+                </div>
+                <!-- box news 2 -->
+
+                <div class="box_news">
+                    <img src="images/news_03.png" alt="news03" class="image_news">
+                    <div class="line_news"></div>
+                    <p class="name_news">พบ 3 ศิลปิน ART TOY ชื่อดัง  <br> FARMER BOB, RICO, A ZHUO </p>
+                </div>
+                <!-- box news 3 -->
+            </div>
+            <!-- news all -->
+
+        </div>
+        <!-- news -->
+
+        <div id="artist">
+
+            <p id="title_artist">ศิลปินเจ้าของอาร์ตทอยสุดฮิต</p>
+            <p class="more_artist">ดูศิลปินท่านอื่นๆ</p>
+            <div class="artist_all">
+                <div class="box_artist">
+                    <img src="images/artist_01.jpg" alt="artist01" class="profile_artist">
+                    <!-- Profile Artist -->
+                    <img src="images/arttoy_artist01.png" alt="arttoy_artist01" class="arttoy_artist">
+                    <p class="name_artist">มด-นิสา ศรีคำดี</p>
+                </div>
+                <!-- box artist1 -->
+
+                <div class="box_artist">
+                    <img src="images/artist_02.jpg" alt="artist02" class="profile_artist">
+                    <!-- Profile Artist -->
+                    <img src="images/arttoy_artist02.png" alt="arttoy_artist02" class="arttoy_artist2">
+                    <p class="name_artist">Kenny wong</p>
+                </div>
+                <!-- box artist2 -->
+
+                <div class="box_artist">
+                    <img src="images/artist_03.jpg" alt="artist03" class="profile_artist">
+                    <!-- Profile Artist -->
+                    <img src="images/arttoy_artist03.png" alt="arttoy_artist03" class="arttoy_artist3">
+                    <p class="name_artist3">Xiongmao</p>
+                </div>
+                <!-- box artist3 -->
+            </div>
+            <!-- Artist all -->
+
+            <button class="totop">
+                <span class="icon-park-outline--to-top-one"></span>
+            </button>
+
+        </div>
+        <!-- Artist -->
+
+        <div id="footer">
+            <a href="index.html">
+                <img src="images/LOGO2_midterm.png" alt="logo_footer" class="logo_footer">
+            </a>
+
+            <p class="name_community">ART TOY HOUSE</p>
+            <p class="name2_community">COMMUNITY</p>
+            <p class="copyright">Copyright © 2024 arttoyhouse.com</p>
+
+            <div class="box_allcontact">
+                <div class="box_contact">
+                    <span class="ri--facebook-line"></span>
+                </div>
+                <!-- facebook -->
+
+                <div class="box_contact">
+                    <span class="ph--instagram-logo-light"></span>
+                </div>
+                <!-- ig -->
+
+                <div class="box_contact">
+                    <span class="akar-icons--x-fill"></span>
+                </div>
+                <!-- X -->
+
+                <div class="box_contact">
+                    <span class="mingcute--tiktok-line"></span>
+                </div>
+                <!-- tiktok -->
+            </div>
+            <!-- box all contact -->
+        </div>
+        <!-- footer -->
+
+    </div>
+    <!-- wrapper -->
+
+    <!-- Popup Register -->
+    <script>
+        var registerBtn = document.getElementById("register");
+        var popupForm = document.getElementById("popupForm");
+        var closeBtn = document.querySelector(".close");
+
+        registerBtn.onclick = function() {
+        popupForm.style.display = "block";
+        }
+
+        closeBtn.onclick = function() {
+        popupForm.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+        if (event.target == popupForm) {
+        popupForm.style.display = "none";
+        }
+        }
+    </script>
+
+    <!-- slide details -->
+    <script>
+        document.querySelector('.arrow').addEventListener('click', function() {
+        document.querySelector('.details_all').classList.toggle('swapped-details');
+        });
+    </script>
+
+    <!-- slide dot -->
+    <script>
+        document.querySelector('.arrow').addEventListener('click', function() {
+        document.querySelector('.dot').classList.toggle('swapped-dot');
+        });
+    </script>
+
+    <!-- to top -->
+    <script>
+        $('.totop').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({ scrollTop: 0 }, 1200); 
+          // ตรงเลข 1200 ปรับตามความเร็วที่ต้องการ (หน่วยเป็นมิลลิวินาที)
+        });
+    </script>
+
+    <!-- ทำให้ปุ่มหัวใจกดได้จริง -->
+    <script >
+        document.querySelectorAll('.like, .like2').forEach(button => {
+                    button.addEventListener('click', function() {
+                        const icon = this.querySelector('i');
+                        
+                        if (icon.classList.contains('fa-regular')) {
+                            icon.classList.remove('fa-regular');
+                            icon.classList.add('fa-solid');
+                        } else {
+                            icon.classList.remove('fa-solid');
+                            icon.classList.add('fa-regular');
+                        }
+                    });
+        });
+    </script>
+    
+</body>
+</html>

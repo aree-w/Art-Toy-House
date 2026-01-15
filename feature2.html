@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLECTION</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="feature2.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js">
+    </script>
+
+    <!-- jQuery CDN (ใช้ตรง to top) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <div id="box_menubar">
+            <div id="menubar">
+                <div class="boxmenu_left">
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html">หน้าแรก</a></li>
+                            <li class="menu-item"><a href="feature.html">คอมมูนิตี้</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- boxmenu_left -->
+    
+                <div class="box_logo">
+                    <a href="index.html">
+                        <img src="images/LOGO_midterm.png" alt="LOGO">
+                    </a>
+                </div>
+                <!-- box logo -->
+    
+                <div class="boxmenu_right">
+                    <div class="top">
+                        <div class="box_ac_nt">
+                            <div class="account">
+                                <i class="fa-regular fa-user"></i>
+                            </div> <!-- account -->
+                            <div class="notification">
+                                <i class="fa-regular fa-bell"></i>
+                            </div> <!-- notification -->
+                        </div>
+                        <!-- box account,notification-->
+    
+                        <div class="circle_notification">
+                        </div> 
+                        <!-- circle notification -->
+                    </div>
+                    <!-- top -->
+    
+                    <div class="bottom">
+                        <nav>
+                            <ul class="menu2">
+                                <li class="menu2-item active"><a href="#collection">คอลเลกชัน</a></li>
+                                <li class="menu2-item"><a href="#contact">ติดต่อเรา</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- bottom -->
+    
+                </div>
+                <!-- booxmenu_right -->
+            </div>
+            <!-- menu bar -->
+        </div>
+        <!-- box menubar -->
+        
+
+        <div id="collection_me">
+
+            <div class="box_me">
+                <div class="inbox_me">
+                    <img src="images/box_me01.png" alt="hirono" class="image1">
+                    <div class="circle_inbox">
+                        ขออวด <br> ตัวนี้
+                    </div>
+                    <img src="images/box_me02.png" alt="hirono" class="image2">  
+                    <img src="images/box_me03.png" alt="hirono"
+                    class="image3">     
+                    <img src="images/box_me04.png" alt="hirono"
+                    class="image4">
+                    <img src="images/box_me05.png" alt="hirono" class="image5">
+                    <img src="images/box_me06.png" alt="hirono" class="image6">
+                </div>
+                <!-- inbox me -->
+            </div>
+            <!-- Box me -->
+
+            <p id="title_collection_me">คอลเลกชันของฉัน</p>
+            <img src="images/winkwink.png" alt="winkwink"
+            class="winkwink">
+
+            <div class="post_me">
+                <div class="line"></div>
+
+                <img src="images/profile_me.jpg" alt="profile"
+                class="profile_me">
+
+                <p id="name_me">คนสวยที่ป้าร้านข้าวเรียก</p>
+
+                <div class="box_role">
+                    สมาชิกยอดนิยม
+                </div>
+
+                <p class="text_me">
+                    น่ารักมาก พอน้องๆ มาอยู่รวมกัน ใจฟูไปตามๆกันนะทุกโคนน <br>
+                    กดไลค์เพื่อเป็นกำลังใจในการจุ่มน้องคนใหม่ น้องจะได้มาอยู่กับ <br>
+                    เพื่อนๆในตู้
+                    <span class="mingcute--emoji-2-line"></span>
+                </p>
+
+                <p class="time_post">อัปเดทคอลเลกชันเมื่อสักครู่</p>
+
+                <div class="box_like">
+                    <span class="iconamoon--heart-fill"></span>
+                    5
+                </div>
+
+                <p class="comment_postme">1 ความคิดเห็น</p>
+
+                <span class="lets-icons--view-alt-fill"></span>
+
+                <p class="views_postme">14 Views</p>
+
+            </div>
+            <!-- post me -->
+
+            <p id="customize">ปรับแต่งคอลเลกชัน</p>
+            <span class="mage--edit-fill"></span>
+
+            <!-- Popup form ที่เพิ่มเข้ามา -->
+             <div id="popupForm" class="popup">
+                <div class="popup-content">
+                    <span class="close">&times;</span>
+                    <h2>ปรับแต่งคอลเลกชัน</h2>
+      
+                <!-- แก้ไขข้อความ -->
+                    <p class="popup-heading">แก้ไขโพสต์</p>
+                    <textarea id="editText" rows="5" cols="50"></textarea><br><br>
+      
+                <!-- อัปโหลดรูปภาพ -->
+                    <p class="popup-addimage">เพิ่ม Art Toy ตัวใหม่</p>
+                    <label for="imageUpload" class="custom-file-upload"> อัปโหลดรูปภาพ</label>
+                    <input type="file" id="imageUpload" accept="image/*">
+  
+                <!-- ปุ่มบันทึก -->
+                    <button id="saveChanges">บันทึก</button>
+                </div>
+            </div>
+            <!-- Popup form -->
+
+            <div class="box_need">
+                <p class="text_need">ตัวที่อยากได้</p>
+                <img src="images/need.png" alt="need"
+                class="image_need">
+            </div>
+            <!-- box need -->
+
+        </div>
+        <!-- collection me -->
+
+        <div id="collection_hot">
+            <p id="title_collection_hot">คอลเลกชันของเพื่อนๆ</p>
+            <p id="text_collection_hot">คอลเลกชันที่ <br> โดนใจสมาชิกสุดๆ</p>
+
+            <div class="box_profile_hot">
+                <img src="images/profile_hotcol.jpg" alt="profile"
+                class="profile_hot">
+                <div class="addfriend">
+                    <span class="mingcute--add-line"></span>
+                </div>
+            </div>
+            <!-- box profile hot -->
+
+            <p id="name_hot">เทพเจ้าsecret</p>
+            <div class="like_hot">
+                <span class="iconamoon--heart-fill"></span>
+            </div>
+            <p class="like">3,999 ถูกใจ</p>
+            <div class="views_hot">
+                <span class="lets-icons--view-alt-fill"></span>
+            </div>
+            <p class="views">5,099 Views</p>
+
+            <div class="box_hot">
+                <div class="inbox_hot">
+                        <img src="images/box_hot01.png" alt="arttoy" class="image_hot1">
+                        <img src="images/box_hot02.png" alt="arttoy" class="image_hot2">
+                        <img src="images/box_hot03.png" alt="arttoy" class="image_hot3">
+                        <img src="images/box_hot04.png" alt="arttoy" class="image_hot4">
+                </div>
+                <!-- inbox hot -->
+            </div>
+            <!-- box hot -->
+
+            <div class="box_all_comment">
+                <div class="box_comment1">
+                    <p class="comment">OMG!</p>
+                </div>
+                <!-- box comment 1 -->
+                <div class="box_comment2">
+                    <p class="comment">เมื่อไหร่ตู้ผมจะได้แบบนี้</p>
+                </div>
+                <!-- box comment 2 -->
+                <div class="box_comment3">
+                    <p class="comment">สวยทุกตัวเลยค่ะ วาสนาเราที</p>
+                </div>
+                <!-- box comment 3 -->
+                <div class="box_comment4">
+                    <p class="comment">สุดยอดเลยครับ</p>
+                </div>
+                <!-- box comment 4 -->
+                <div class="box_comment5">
+                    <p class="comment">ทำบุญด้วยอะไรหรอคะพี่</p>
+                    <span class="bx--shocked"></span>
+                </div>
+                <!-- box comment 5 -->
+
+            </div>
+            <!-- box all comment -->
+
+            <div class="circle_heart1">
+                <span class="iconamoon--heart-fill"></span>
+            </div>
+            <div class="circle_heart2">
+                <span class="iconamoon--heart-fill"></span>
+            </div>
+            <div class="circle_shock">
+                <span class="bx--shocked"></span>
+            </div>
+
+            <div class="comment_like">
+
+                <div class="box_input_comment">
+                    <input type="text" class="input_comment" 
+                    placeholder="แสดงความคิดเห็นของคุณเลย...">
+                </div>
+                <!-- box input comment -->
+
+                <div class="send_comment">
+                    <span class="prime--send"></span>
+                </div>
+                <!-- send comment -->
+
+                <div class="box_like_hot">
+                    <span class="iconamoon--heart-fill"></span>
+                </div>
+                <!-- box like hot -->
+
+            </div>
+            <!-- Comment & Like -->
+            
+        </div>
+        <!-- collection hot -->
+
+        <div id="collection_friends">
+
+            <div class="all_post_collection">
+
+                <div class="box_post_collection">
+                    
+                    <div class="collection_friend">
+                        <div class="inbox_friend">
+                            <img src="images/col_friend01-1.png" alt="arttoy" class="image1_friend1">
+                            <img src="images/col_friend01-2.png" alt="arttoy" class="image2_friend1">
+                            <img src="images/col_friend01-3.png" alt="arttoy" class="image3_friend1">
+                        </div>
+                        <!-- inbox friend -->
+                    </div>
+                    <!-- collection friend-->
+
+                    <div class="post_friend">
+
+                        <div class="box_profile_friend">
+                            <img src="images/profile_col01.jpg" alt="profile"
+                            class="profile_friend">
+                            <div class="add_friend">
+                                <span class="mingcute--add-line"></span>
+                            </div>
+                        </div>
+                        <!-- box profile friend -->
+
+                        <p class="name_friend">ArttoHeart</p>
+
+                        <div class="box_role_friend">
+                            สมาชิกใหม่
+                        </div>
+
+                        <div class="box_like_friend">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <!-- box like friend -->
+
+                        <p class="like_friend">16</p>
+
+                        <p class="text_friend">
+                            เพิ่งเข้าวงการจุ่มค่า ถ้าจุ่มไปเรื่อยๆ <br> น้องต้องเต็มตู้เเน่ๆ เลย แต่เงินเราน่าจะหมดก่อน
+                        </p>
+
+                        <p class="time_friend">อัปเดทคอลเลกชันเมื่อ 5 นาทีที่แล้ว </p>
+
+                        <p class="comment_friend">0 ความคิดเห็น</p>
+
+                        <div class="comment_send">
+
+                            <div class="box_input_comment">
+                                <input type="text" class="input_comment_friend" 
+                                placeholder="แสดงความคิดเห็น..">
+                            </div>
+                            <!-- box input comment -->
+            
+                            <div class="send_comment_friend">
+                                <span class="prime--send"></span>
+                            </div>
+                            <!-- send comment -->
+            
+                        </div>
+                        <!-- Comment & Send -->
+
+                    </div>
+                    <!-- post friend -->
+
+                </div>
+                <!-- box post collection 1-->
+
+                <div class="box_post_collection">
+
+                    <div class="collection_friend">
+                        <div class="inbox_friend">
+                            <img src="images/col_friend02-1.png" alt="arttoy" class="image1_friend2">
+                            <div class="circle_inbox_friend">
+                                ขออวด <br> ตัวนี้
+                            </div>
+                            <img src="images/col_friend02-2.png" alt="arttoy" class="image2_friend2">
+                            <img src="images/col_friend02-3.png" alt="arttoy" class="image3_friend2">
+                            <img src="images/col_friend02-4.png" alt="arttoy" class="image4_friend2">
+                        </div>
+                        <!-- inbox friend -->
+                    </div>
+                    <!-- collection friend-->
+
+                    <div class="post_friend">
+
+                        <div class="box_profile_friend">
+                            <img src="images/profile_col02.png" alt="profile"
+                            class="profile_friend">
+                            <div class="add_friend">
+                                <span class="mingcute--add-line"></span>
+                            </div>
+                        </div>
+                        <!-- box profile friend -->
+
+                        <p class="name_friend">หนีแฟนมาจุ่มครับ</p>
+
+                        <div class="box_role_friend">
+                            สมาชิกยอดนิยม
+                        </div>
+
+                        <div class="box_like_friend">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <!-- box like friend -->
+
+                        <p class="like_friend">40</p>
+
+                        <p class="text_friend">
+                            แฟนถามเงินหายไปไหนหมด ผมตอบว่า <br> อยู่ในกล่องนี้ครับ สุดท้ายได้นอนนอกห้องTT
+                        </p>
+
+                        <p class="time_friend">อัปเดทคอลเลกชันเมื่อ 40 นาทีที่แล้ว</p>
+
+                        <p class="comment_friend">2 ความคิดเห็น</p>
+
+                        <div class="comment_send">
+
+                            <div class="box_input_comment">
+                                <input type="text" class="input_comment_friend" 
+                                placeholder="แสดงความคิดเห็น..">
+                            </div>
+                            <!-- box input comment -->
+            
+                            <div class="send_comment_friend">
+                                <span class="prime--send"></span>
+                            </div>
+                            <!-- send comment -->
+                        </div>
+                        <!-- Comment & Send -->
+
+                    </div>
+                    <!-- post friend -->
+
+                </div>
+                <!-- box post collection 2-->
+
+                <div class="box_post_collection">
+                    
+                    <div class="collection_friend">
+                        <div class="inbox_friend">
+                            <img src="images/col_friend03-1.png" alt="arttoy" class="image1_friend3">
+                            <img src="images/col_friend03-2.png" alt="arttoy" class="image2_friend3">
+                        </div>
+                        <!-- inbox friend -->
+                    </div>
+                    <!-- collection friend-->
+
+                    <div class="post_friend">
+
+                        <div class="box_profile_friend">
+                            <img src="images/profile_col03.jpg" alt="profile"
+                            class="profile_friend">
+                            <div class="add_friend">
+                                <span class="mingcute--add-line"></span>
+                            </div>
+                        </div>
+                        <!-- box profile friend -->
+
+                        <p class="name_friend">Daksakibidi</p>
+
+                        <div class="box_role_friend">
+                            สมาชิกใหม่
+                        </div>
+
+                        <div class="box_like_friend">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <!-- box like friend -->
+
+                        <p class="like_friend">28</p>
+
+                        <p class="text_friend">
+                            ถึงมี 2 ตัวก็ขออวดหน่อยนะค้าบบ
+                        </p>
+
+                        <p class="time_friend">อัปเดทคอลเลกชันเมื่อ 1 ชม.ที่แล้ว</p>
+
+                        <p class="comment_friend">1 ความคิดเห็น</p>
+
+                        <div class="comment_send">
+
+                            <div class="box_input_comment">
+                                <input type="text" class="input_comment_friend" 
+                                placeholder="แสดงความคิดเห็น..">
+                            </div>
+                            <!-- box input comment -->
+            
+                            <div class="send_comment_friend">
+                                <span class="prime--send"></span>
+                            </div>
+                            <!-- send comment -->
+            
+                        </div>
+                        <!-- Comment & Send -->
+
+                    </div>
+                    <!-- post friend -->
+
+                </div>
+                <!-- box post collection 3 -->
+
+                <div class="box_post_collection">
+
+                    <div class="collection_friend">
+                        <div class="inbox_friend">
+                            <img src="images/col_friend04-1.png" alt="arttoy" class="image1_friend4">
+                            <div class="circle_inbox_friend">
+                                ขออวด <br> ตัวนี้
+                            </div>
+                            <img src="images/col_friend04-2.png" alt="arttoy" class="image2_friend4">
+                            <img src="images/col_friend04-3.png" alt="arttoy" class="image3_friend4">
+                        </div>
+                        <!-- inbox friend -->
+                    </div>
+                    <!-- collection friend -->
+
+                    <div class="post_friend">
+
+                        <div class="box_profile_friend">
+                            <img src="images/profile_col04.jpg" alt="profile"
+                            class="profile_friend">
+                            <div class="add_friend">
+                                <span class="mingcute--add-line"></span>
+                            </div>
+                        </div>
+                        <!-- box profile friend -->
+
+                        <p class="name_friend">ชื่อโซ่ครับ</p>
+
+                        <div class="box_role_friend">
+                            สมาชิกยอดนิยม
+                        </div>
+
+                        <div class="box_like_friend">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <!-- box like friend -->
+
+                        <p class="like_friend4">114</p>
+
+                        <p class="text_friend">
+                            ไม่ค่อยอยากโชว์ แต่ขอนิดนึงนะครับ <br> ปล. น้อง Kubo คอลนี้อย่างเท่อะครับทุกคน 
+                        </p>
+
+                        <p class="time_friend">อัปเดทคอลเลกชันเมื่อ 2 ชม.ที่แล้ว </p>
+
+                        <p class="comment_friend">7 ความคิดเห็น</p>
+
+                        <div class="comment_send">
+
+                            <div class="box_input_comment">
+                                <input type="text" class="input_comment_friend" 
+                                placeholder="แสดงความคิดเห็น..">
+                            </div>
+                            <!-- box input comment -->
+            
+                            <div class="send_comment_friend">
+                                <span class="prime--send"></span>
+                            </div>
+                            <!-- send comment -->
+                        </div>
+                        <!-- Comment & Send -->
+
+                    </div>
+                    <!-- post friend -->
+
+                </div>
+                <!-- box post collection 4 -->
+            </div>
+            <!-- all box collection -->
+
+            <p class="seemore">ดูเพิ่มเติม</p>
+            <div class="icon_seemore">
+                    <span class="mingcute--down-line"></span>
+            </div>
+
+            <button class="totop">
+                <span class="icon-park-outline--to-top-one"></span>
+            </button>
+
+        </div>
+        <!-- collection friends -->
+
+        <div id="footer">
+            <a href="#">
+                <img src="images/LOGO2_midterm.png" alt="logo_footer" class="logo_footer">
+            </a>
+
+            <p class="name_community">ART TOY HOUSE</p>
+            <p class="name2_community">COMMUNITY</p>
+            <p class="copyright">Copyright © 2024 arttoyhouse.com</p>
+
+            <div class="box_allcontact">
+                <div class="box_contact">
+                    <span class="ri--facebook-line"></span>
+                </div>
+                <!-- facebook -->
+
+                <div class="box_contact">
+                    <span class="ph--instagram-logo-light"></span>
+                </div>
+                <!-- ig -->
+
+                <div class="box_contact">
+                    <span class="akar-icons--x-fill"></span>
+                </div>
+                <!-- X -->
+
+                <div class="box_contact">
+                    <span class="mingcute--tiktok-line"></span>
+                </div>
+                <!-- tiktok -->
+            </div>
+            <!-- box all contact -->
+        </div>
+        <!-- footer -->
+
+    </div>
+    <!-- wrapper -->
+
+    <!-- Popup edit collection -->
+    <script>
+        // ดึงข้อมูลองค์ประกอบ
+        var customizeBtn = document.getElementById("customize");
+        var editIcon = document.querySelector(".mage--edit-fill");
+        var popupForm = document.getElementById("popupForm");
+        var closeBtn = document.querySelector(".close");
+        var saveChangesBtn = document.getElementById("saveChanges");
+        var textMe = document.querySelector(".text_me");
+        var editText = document.getElementById("editText");
+        var imageUpload = document.getElementById("imageUpload");
+        var inboxImage = document.querySelector(".inbox_me img");
+
+        // ฟังก์ชันเปิดป็อปอัพ
+        function openPopup() {
+        popupForm.style.display = "block";
+        }
+
+        // เปิดป็อปอัพเมื่อคลิกที่ customize หรือ icon edit
+        customizeBtn.onclick = openPopup;
+        editIcon.onclick = openPopup;
+
+        // ปิดป็อปอัพเมื่อกดปุ่มปิด
+        closeBtn.onclick = function() {
+        popupForm.style.display = "none";
+        }
+
+        // ปิดป็อปอัพเมื่อคลิกนอกป็อปอัพ
+        window.onclick = function(event) {
+        if (event.target == popupForm) {
+            popupForm.style.display = "none";
+        }
+        }
+
+        // บันทึกการเปลี่ยนแปลงเมื่อคลิกปุ่มบันทึก
+        saveChangesBtn.onclick = function() {
+        // อัปเดตข้อความใน text_me
+        textMe.innerHTML = editText.value;
+
+        // อัปเดตรูปภาพใหม่ถ้ามีการอัปโหลด
+        if (imageUpload.files && imageUpload.files[0]) {
+            var reader = new FileReader();
+            
+            reader.onload = function(e) {
+            inboxImage.src = e.target.result; // เปลี่ยนแปลง src ของรูปภาพ
+            }
+            
+            reader.readAsDataURL(imageUpload.files[0]); // อ่านไฟล์รูปภาพ
+        }
+
+        // ปิดป็อปอัพหลังจากบันทึก
+        popupForm.style.display = "none";
+        }
+    </script>
+
+    <!-- ทำให้ปุ่มหัวใจกดได้จริง -->
+    <script >
+        document.querySelectorAll('.box_like_friend').forEach(button => {
+                    button.addEventListener('click', function() {
+                        const icon = this.querySelector('i');
+                        
+                        if (icon.classList.contains('fa-regular')) {
+                            icon.classList.remove('fa-regular');
+                            icon.classList.add('fa-solid');
+                        } else {
+                            icon.classList.remove('fa-solid');
+                            icon.classList.add('fa-regular');
+                        }
+                    });
+        });
+    </script>
+
+    <!-- to top -->
+    <script>
+        $('.totop').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({ scrollTop: 0 }, 1200); 
+          // ตรงเลข 1200 ปรับตามความเร็วที่ต้องการ (หน่วยเป็นมิลลิวินาที)
+        });
+    </script>
+    
+</body>
+</html>

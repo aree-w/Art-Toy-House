@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMUNITY</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="feature.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js">
+    </script>
+
+    <!-- jQuery CDN (ใช้ตรง to top) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <div id="wrapper">
+
+        <div id="box_menubar">
+            <div id="menubar">
+                <div class="boxmenu_left">
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html">หน้าแรก</a></li>
+                            <li class="menu-item active"><a href="feature.html">คอมมูนิตี้</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- boxmenu_left -->
+    
+                <div class="box_logo">
+                    <a href="index.html">
+                        <img src="images/LOGO_midterm.png" alt="LOGO">
+                    </a>
+                </div>
+                <!-- box logo -->
+    
+                <div class="boxmenu_right">
+                    <div class="top">
+                        <div class="box_ac_nt">
+                            <div class="account">
+                                <i class="fa-regular fa-user"></i>
+                            </div> <!-- account -->
+                            <div class="notification">
+                                <i class="fa-regular fa-bell"></i>
+                            </div> <!-- notification -->
+                        </div>
+                        <!-- box account,notification-->
+    
+                        <div class="circle_notification">
+                        </div> 
+                        <!-- circle notification -->
+                    </div>
+                    <!-- top -->
+    
+                    <div class="bottom">
+                        <nav>
+                            <ul class="menu2">
+                                <li class="menu2-item"><a href="feature2.html">คอลเลกชัน</a></li>
+                                <li class="menu2-item"><a href="#contact">ติดต่อเรา</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- bottom -->
+                </div>
+                <!-- booxmenu_right -->
+            </div>
+            <!-- menubar -->
+        </div>
+        <!-- box_menubar -->
+
+        <div id="chat_area">
+            
+            <div id="room_menu">
+                <p id="title_roommenu">พื้นที่สนทนา</p>
+                <div class="line_roommenu"></div>
+                <div class="circle_roommenu"></div>
+                <p id="online_roommenu">325 คนที่ออนไลน์อยู่</p>
+                <span class="material-symbols-light--door-open-outline-rounded"></span>
+                <p id="head_roommenu">ห้องสนทนา</p>
+
+                <div class="box_all_room">
+                    <button class="box_room">
+                        รีวิว Art Toy
+                    </button>
+                    <!-- box room 1 -->
+
+                    <button class="box_room active">
+                        มาแลก Art Toy กัน
+                    </button>
+                    <!-- box room 2 -->
+
+                    <button class="box_room">
+                        Art Toy ใหม่ๆ
+                    </button>
+                    <!-- box room 3 -->
+
+                    <button class="box_room">
+                        หาบ้านให้เด็กๆ
+                    </button>
+                    <!-- box room 4 -->
+
+                    <button class="box_room">
+                        พิกัด Art Toy
+                    </button>
+                    <!-- box room 5 -->
+
+                    <button class="add_room">
+                        <span class="mingcute--add-line"></span>
+                    </button>
+                    <!-- add room -->
+                </div>
+                <!-- box all room -->
+
+            </div>
+            <!-- room menu -->
+
+            <div id="add_post">
+                <p class="title_addpost">เพิ่มโพสต์</p>
+
+                <div class="box_all_addpost">
+                    <div class="box_addpost">
+                        <span class="ion--image"></span>
+                    </div>
+                    <!-- box addpost image -->
+
+                    <div class="box_addpost">
+                        <span class="mdi--emoji"></span>
+                    </div>
+                    <!-- box addpost emoji -->
+
+                    <div class="box_addpost">
+                        <span class="material-symbols-light--door-open"></span>
+                    </div>
+                    <!-- box addpost room -->
+                </div>
+                <!-- box all addpost -->
+
+                <div class="inputbox_addpost">
+                    <textarea name="addpost" id="inputbox_addpost" placeholder="เขียนข้อความ.."></textarea>
+                </div>
+                <!-- input box addpost -->
+
+                <div class="send_addpost">
+                    <span class="prime--send"></span>
+                </div>
+                <!-- send addpost -->
+
+                <p id="title_template">เทมเพลตสำหรับการเขียน</p>
+
+                <div class="box_all_template">
+                    <div class="box_template">
+                        <select id="template">
+                            <option value="option1">เรามี...อยากแลกกับ...ถ้าสนใจมาแลกกันนะ</option>
+                            <option value="option2">หาแลก... กับ... กล่องสภาพดี การ์ดครบ</option>
+                        </select>
+                        <div class="icon_arrowdown">
+                            <span class="mingcute--down-line"></span>
+                        </div>
+                    </div>
+                    <!-- box template -->
+
+                    <div class="box_use">ใช้อันนี้</div>
+                    <!-- box use -->
+                </div>
+                <!-- box all template -->
+
+            </div>
+            <!-- add post -->
+
+            <div id="hot_post">
+
+                <div class="title_hotpost">
+                    <p id="title_hotpost">โพสต์ที่สมาชิก <br>
+                    กำลังให้ความสนใจ</p>
+
+                    <img src="images/title_hotpost_image.png" alt="titlehotpost" class="title_hotpost_image">
+
+                    <div class="circle_hotpost"></div>
+
+                </div>
+                <!-- title hot post -->
+
+                <div class="hot_post">
+
+                    <div class="profile_hotpost">
+                        <img src="images/profile_hotpost.jpg" alt="profile_hotpost" class="image_profile">
+
+                        <div class="addfriend_hotpost">
+                            <span class="mingcute--add-line"></span>
+                        </div>
+
+                    </div>
+                    <!-- profile hot post -->
+
+                    <div class="box_hotpost">
+
+                        <div class="all_imagehotpost">
+
+                            <img src="images/hot_01.jpg" alt="hotpost_image1" class="hotpost_image1">
+                            <!-- image 1-->
+
+                            <img src="images/hot_02.jpg" alt="hotpost_image2" class="hotpost_image2">
+                            <!-- image 2-->
+
+                            <img src="images/hot_03.PNG" alt="hotpost_image3" class="hotpost_image3">
+                            <!-- image 3-->
+                        </div>
+                        <!-- all image -->
+
+                        <p class="name_user_hotpost">ชายฝึกหัดจุ่ม</p>
+                        <p class="text_hotpost">ผมจุ่มได้น้องตัวนี้มาครับ แลกตัวไหนได้บ้างครับ พอดีเพิ่งเข้าวงการจุ่มไม่แน่ใจว่าน้องเป็นตัวไหน <br>ในคอล หาภาพข้างกล่องก็ไม่เจอ อยากแลกกับตัวอื่นครับ</p>
+
+                        <div class="boxall_time_views">
+                            <div class="box_time">
+                                <span class="ant-design--reload-time-outline"></span>
+                                <p class="time">2 วันที่แล้ว</p>
+                            </div>
+                            <!-- time -->
+
+                            <div class="box_views">
+                                <span class="lets-icons--view-alt-fill"></span>
+                                <p class="views">597 Views</p>
+                            </div>
+                            <!-- views -->
+                        </div>
+                        <!-- box all time&views -->
+
+                    </div>
+                    <!-- box hot post -->
+
+                    <div class="box_like_hotpost">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <!-- like hot post -->
+
+                    <div class="box_exchange_hotpost">
+                        <span class="uil--exchange-alt"></span>
+                    </div>
+                    <!-- exchange hot post -->
+
+                </div>
+                <!-- post -->
+
+                <div class="comment">
+
+                    <div class="box_input_comment">
+                        <input type="text" class="input_comment" 
+                        placeholder="แสดงความคิดเห็นของคุณเลย...">
+                    </div>
+                    <!-- box input comment -->
+
+                    <div class="send_comment">
+                        <span class="prime--send"></span>
+                    </div>
+                    <!-- send comment -->
+
+                    <div class="box_all_comment" style="--t:20s">
+
+                        <div class="box_comment1">
+                            <p class="text_comment">น้อง!! นี่มันตัว secret เลยนะ</p>
+                            <span class="bx--shocked"></span>
+                        </div>
+                        <!-- box comment 1 -->
+
+                        <div class="box_comment2">
+                            <p class="text_comment">ช็อคอยู่</p>
+                        </div>
+                        <!-- box comment 2 -->
+
+                        <div class="box_comment3">
+                            <p class="text_comment">แนะนำให้เก็บดีกว่าแลกนะคะ</p>
+                        </div>
+                        <!-- box comment 3 -->
+
+                        <div class="box_comment4">
+                            <p class="text_comment">ถ้าตัวนี้ คนต่อแถวรอแลกทั้งคอมมูแล้วครับน้อง</p>
+                        </div>
+                        <!-- box comment 4 -->
+
+                    </div>
+                    <!-- box all comment -->
+
+                </div>
+                <!-- comment -->
+
+            </div>
+            <!-- hot post -->
+
+            <div id="post">
+                <div class="all_post">
+
+                    <div class="row_post">
+
+                        <div class="box_post">
+
+                            <div class="images_post">
+
+                                <img src="images/trade_01.jpeg" alt="trade01" class="imagepost">
+
+                                <img src="images/trade_02.jpeg" alt="trade02" class="imagepost">
+
+                            </div>
+                            <!-- images post -->
+
+                            <div class="profile_post">
+
+                                <div class="addfriend_post">
+                                    <span class="mingcute--add-line"></span>
+                                </div>
+
+                                <img src="images/profile_08.jpeg" alt="profile" class="profile_image">
+                                
+                            </div>
+                            <!-- profile post -->
+
+                            <div class="like_post">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+                            <p class="name_user">eiei</p>
+                            <p class="time_post">โพสต์เมื่อ 25 นาทีที่แล้ว</p>
+                            <p class="text_post">อยากสอบถามค่า เรามีน้อง nyota อุ้มแมว มีใครสนใจแลก <br>น้องที่ขี่หลังแมวกับเรามั้ยคะ ถ้าสนใจขอดูภาพเพิ่มเติมได้นะค่า  </p>
+
+                            <div class="box_views_post">
+                                <span class="lets-icons--view-alt-fill"></span>
+                                <p class="views_post">27 Views</p>
+                            </div>
+                            <!-- box views post -->
+
+                            <div class="box_traed">
+                                <span class="uil--exchange-alt"></span>
+                                <p class="traed">มาแลกกัน</p>
+                            </div>
+                            <!-- box traed -->
+
+                            <div class="box_comment">
+                                <input type="text" class="input_box" placeholder="แสดงความคิดเห็นของคุณเลย...">
+                                <span class="prime--send"></span>
+
+                                <div class="box_morecomments">
+                                    <span class="mingcute--down-line"></span>
+                                </div>
+                            </div>
+                            <!-- box comment -->
+
+                        </div>
+                        <!-- box post 1 -->
+
+                        <div class="box_post">
+                            
+                            <div class="images_post">
+
+                                <img src="images/trade_03.jpg" alt="trade01" class="imagepost">
+
+                                <img src="images/trade_04.jpg" alt="trade02" class="imagepost">
+
+                            </div>
+                            <!-- images post -->
+
+                            <div class="profile_post">
+
+                                <div class="addfriend_post">
+                                    <span class="mingcute--add-line"></span>
+                                </div>
+
+                                <img src="images/profile_09.jpeg" alt="profile" class="profile_image">
+                                
+                            </div>
+                            <!-- profile post -->
+
+                            <div class="like_post">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+                            <p class="name_user">ก้านกล้วย</p>
+                            <p class="time_post2">โพสต์เมื่อ 3 ชม.ที่แล้ว</p>
+                            <p class="text_post">อยากแลกน้องคนนี้กับน้อง Nook เวอร์ไหน<br>ตัวไหนก็ได้ค่า ขอแค่เป็นน้อง Nook ก็พอค่า  </p>
+
+                            <div class="box_views_post2">
+                                <span class="lets-icons--view-alt-fill"></span>
+                                <p class="views_post">101 Views</p>
+                            </div>
+                            <!-- box views post -->
+
+                            <div class="box_traed">
+                                <span class="uil--exchange-alt"></span>
+                                <p class="traed">มาแลกกัน</p>
+                            </div>
+                            <!-- box traed -->
+
+                            <div class="box_comment">
+                                <input type="text" class="input_box" placeholder="แสดงความคิดเห็นของคุณเลย...">
+                                <span class="prime--send"></span>
+
+                                <div class="box_morecomments">
+                                    <span class="mingcute--down-line"></span>
+                                </div>
+
+                            </div>
+                            <!-- box comment -->
+
+                        </div>
+                        <!-- box post 2 -->
+
+                    </div>
+                    <!-- row post 1 -->
+
+                    <div class="row_post">
+
+                        <div class="box_post">
+                            
+                            <div class="images_post">
+
+                                <img src="images/trade_05.jpeg" alt="trade01" class="imagepost">
+
+                                <img src="images/trade_06.jpeg" alt="trade02" class="imagepost">
+
+                            </div>
+                            <!-- images post -->
+
+                            <div class="profile_post">
+
+                                <div class="addfriend_post">
+                                    <span class="mingcute--add-line"></span>
+                                </div>
+
+                                <img src="images/profile_10.jpg" alt="profile" class="profile_image">
+                                
+                            </div>
+                            <!-- profile post -->
+
+                            <div class="like_post">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+                            <p class="name_user">เจ้าหญิงนักจุ่ม</p>
+                            <p class="time_post3">โพสต์เมื่อ 1 วันที่แล้ว</p>
+                            <p class="text_post">แลกกันไหมคะ เช็ดการ์ดอย่างเดียวค่ะ<br>อยากแลกกับ แพนด้า ในคอล animal kingdom ค่ะ  </p>
+
+                            <div class="box_views_post2">
+                                <span class="lets-icons--view-alt-fill"></span>
+                                <p class="views_post">240 Views</p>
+                            </div>
+                            <!-- box views post -->
+
+                            <div class="box_traed">
+                                <span class="uil--exchange-alt"></span>
+                                <p class="traed">มาแลกกัน</p>
+                            </div>
+                            <!-- box traed -->
+
+                            <div class="box_comment">
+                                <input type="text" class="input_box" placeholder="แสดงความคิดเห็นของคุณเลย...">
+                                <span class="prime--send"></span>
+
+                                <div class="box_morecomments">
+                                    <span class="mingcute--down-line"></span>
+                                </div>
+
+                            </div>
+                            <!-- box comment -->
+                        </div>
+                        <!-- box post 3 -->
+
+                        <div class="box_post">
+                            
+                            <div class="images_post">
+
+                                <img src="images/trade_07.jpeg" alt="trade01" class="imagepost">
+
+                                <img src="images/trade_08.jpg" alt="trade02" class="imagepost">
+
+                            </div>
+                            <!-- images post -->
+
+                            <div class="profile_post">
+
+                                <div class="addfriend_post">
+                                    <span class="mingcute--add-line"></span>
+                                </div>
+
+                                <img src="images/profile_11.jpg" alt="profile" class="profile_image">
+                                
+                            </div>
+                            <!-- profile post -->
+
+                            <div class="like_post">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+                            <p class="name_user">ilovehirono</p>
+                            <p class="time_post4">โพสต์เมื่อ 2 วันที่แล้ว</p>
+                            <p class="text_post">หาเเลกฮิโรโนะ v1 ตัวไหนก็ได้คับที่อยู่<br>ใน v1 ปล.ถ้าเป็นน้อง the ghost ก็จะแอบฟินคับ:)</p>
+
+                            <div class="box_views_post2">
+                                <span class="lets-icons--view-alt-fill"></span>
+                                <p class="views_post">320 Views</p>
+                            </div>
+                            <!-- box views post -->
+
+                            <div class="box_traed">
+                                <span class="uil--exchange-alt"></span>
+                                <p class="traed">มาแลกกัน</p>
+                            </div>
+                            <!-- box traed -->
+
+                            <div class="box_comment">
+                                <input type="text" class="input_box" placeholder="แสดงความคิดเห็นของคุณเลย...">
+                                <span class="prime--send"></span>
+
+                                <div class="box_morecomments">
+                                    <span class="mingcute--down-line"></span>
+                                </div>
+
+                            </div>
+                            <!-- box comment -->
+
+                        </div>
+                        <!-- box post 4 -->
+                        
+                    </div>
+                    <!-- row post 2 -->
+
+                    <div class="row_post">
+
+                        <div class="box_post">
+                            
+                            <div class="images_post">
+
+                                <img src="images/trade_09.jpg" alt="trade01" class="imagepost">
+
+                                <img src="images/trade_10.jpeg" alt="trade02" class="imagepost">
+
+                            </div>
+                            <!-- images post -->
+
+                            <div class="profile_post">
+
+                                <div class="addfriend_post">
+                                    <span class="mingcute--add-line"></span>
+                                </div>
+
+                                <img src="images/profile_12.jpg" alt="profile" class="profile_image">
+                                
+                            </div>
+                            <!-- profile post -->
+
+                            <div class="like_post">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+                            <p class="name_user">นั่งเหงา</p>
+                            <p class="time_post5">โพสต์เมื่อ 2 วันที่แล้ว</p>
+                            <p class="text_post">เรามี Poppy Cutie อยากแลกกับ Frankie Sick Beats<br>ถ้าสนใจมาแลกกััันได้นะคะ  </p>
+
+                            <div class="box_views_post2">
+                                <span class="lets-icons--view-alt-fill"></span>
+                                <p class="views_post">356 Views</p>
+                            </div>
+                            <!-- box views post -->
+
+                            <div class="box_traed_emoji">
+                                <span class="mdi--emoji"></span>
+                                <p class="traed">แลกแล้ว</p>
+                            </div>
+                            <!-- box traed -->
+
+                            <div class="box_comment">
+                                <input type="text" class="input_box" placeholder="แสดงความคิดเห็นของคุณเลย...">
+                                <span class="prime--send"></span>
+
+                                <div class="box_morecomments">
+                                    <span class="mingcute--down-line"></span>
+                                </div>
+
+                            </div>
+                            <!-- box comment -->
+                        </div>
+                        <!-- box post 5 -->
+
+                        <div class="box_post">
+                            
+                            <div class="images_post">
+
+                                <img src="images/trade_11.jpg" alt="trade01" class="imagepost">
+
+                                <img src="images/trade_12.jpg" alt="trade02" class="imagepost">
+
+                            </div>
+                            <!-- images post -->
+
+                            <div class="profile_post">
+
+                                <div class="addfriend_post">
+                                    <span class="mingcute--add-line"></span>
+                                </div>
+
+                                <img src="images/profile_13.jpg" alt="profile" class="profile_image">
+                                
+                            </div>
+                            <!-- profile post -->
+
+                            <div class="like_post">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+
+                            <p class="name_user">heartcat</p>
+                            <p class="time_post6">โพสต์เมื่อ 4 วันที่แล้ว</p>
+                            <p class="text_post">หาแลก Azuki แลบลิ้นค่า มีใครสนใจแลกมั้ยคะ<br>เราเก็บน้องมาอย่างดีเลย แม้แต่ฝุ่นก็ไม่ให้แตะ </p>
+
+                            <div class="box_views_post2">
+                                <span class="lets-icons--view-alt-fill"></span>
+                                <p class="views_post">404 Views</p>
+                            </div>
+                            <!-- box views post -->
+
+                            <div class="box_traed">
+                                <span class="uil--exchange-alt"></span>
+                                <p class="traed">มาแลกกัน</p>
+                            </div>
+                            <!-- box traed -->
+
+                            <div class="box_comment">
+                                <input type="text" class="input_box" placeholder="แสดงความคิดเห็นของคุณเลย...">
+                                <span class="prime--send"></span>
+
+                                <div class="box_morecomments">
+                                    <span class="mingcute--down-line"></span>
+                                </div>
+
+                            </div>
+                            <!-- box comment -->
+                        </div>
+                        <!-- box post 6 -->
+                    </div>
+                    <!-- row post 3 -->
+
+                </div>
+                <!-- all post -->
+
+                <p class="seemore">ดูเพิ่มเติม</p>
+                <div class="icon_seemore">
+                    <span class="mingcute--down-line"></span>
+                </div>
+
+            </div>
+            <!-- Post -->
+
+        </div>
+        <!-- Chat Area -->
+
+        <div id="talkartist">
+            <p id="title_talkartist">พูดคุยกับศิลปิน</p>
+
+            <div class="profile_artist">
+                <img src="images/artist_01.jpg" alt="artist" class="artist">
+                <div class="addfriend_artist">
+                    <span class="mingcute--add-line"></span>
+                </div>
+            </div>
+            <!-- Profile Artist -->
+
+            <div class="post_artist">
+                <p class="name_artist">มด-นิสา ศรีคำดี</p>
+                <p class="text_artist">
+                    สวัสดีทุกๆ คนในคอมมูนิตี้นี้เลยนะคะ ขอบคุณที่เข้ามาติดตามงานของฉันค่ะ รู้สึกดีใจ <br>
+                    มากเพราะเป็นครั้งแรกเลย ที่ได้มีโอกาสมาพูดคุยกับแฟนคลับแบบนี้ อยากรู้ว่าทุกคน <br>
+                    คิดยังไงกับคอลเลกชันล่าสุดกันบ้างคะ
+                </p>
+            </div>
+            <!-- Post Artist -->
+
+            <img src="images/post_artist.png" alt="crybaby" class="crybaby">
+
+            <div class="comment_like">
+
+                <div class="box_input_comment">
+                    <input type="text" class="input_comment" 
+                    placeholder="แสดงความคิดเห็นของคุณเลย...">
+                </div>
+                <!-- box input comment -->
+
+                <div class="send_comment2">
+                    <span class="prime--send"></span>
+                </div>
+                <!-- send comment -->
+
+                <div class="like_artist">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <!-- send comment -->
+
+            </div>
+            <!-- Comment & Like -->
+
+            <div class="comment_user" style="--t:25s">
+                <div class="comment1">
+                    <p class="user">ขอถามแรงบันดาลใจได้มั้ยคะ?</p>
+                </div>
+                <div class="comment2">
+                    <p class="user">ชื่นชอบผลงานคุณมดมากเลยค่ะ</p>
+                </div>
+                <div class="comment3">
+                    <p class="user">ติดตามผลงานตลอดครับ</p>
+                </div>
+                <div class="comment4">
+                    <p class="user">น่ารักมากๆค่าา</p>
+                </div>
+                <div class="comment5">
+                    <p class="user">เด็กๆ น่ารักกันมากเลยค่ะ อยากเก็บให้ครบทุกตัวเลย แต่ติดตรงเงินในเป๋านี่สิคะ</p>
+                    <span class="fa-solid--sad-cry"></span>
+                </div>
+                <div class="comment6">
+                    <p class="user">ตามเก็บแล้วค่า</p>
+                </div>
+            </div>
+            <!-- Comment User -->
+
+            <button class="totop">
+                <span class="icon-park-outline--to-top-one"></span>
+            </button>
+
+        </div>
+        <!-- Talk Artist -->
+
+        <div id="footer">
+            <a href="#">
+                <img src="images/LOGO2_midterm.png" alt="logo_footer" class="logo_footer">
+            </a>
+
+            <p class="name_community">ART TOY HOUSE</p>
+            <p class="name2_community">COMMUNITY</p>
+            <p class="copyright">Copyright © 2024 arttoyhouse.com</p>
+
+            <div class="box_allcontact">
+                <div class="box_contact">
+                    <span class="ri--facebook-line"></span>
+                </div>
+                <!-- facebook -->
+
+                <div class="box_contact">
+                    <span class="ph--instagram-logo-light"></span>
+                </div>
+                <!-- ig -->
+
+                <div class="box_contact">
+                    <span class="akar-icons--x-fill"></span>
+                </div>
+                <!-- X -->
+
+                <div class="box_contact">
+                    <span class="mingcute--tiktok-line"></span>
+                </div>
+                <!-- tiktok -->
+            </div>
+            <!-- box all contact -->
+        </div>
+        <!-- footer -->
+
+    </div>
+    <!-- wrapper -->
+
+    <!-- ทำให้ปุ่มหัวใจกดได้จริง -->
+    <script >
+        document.querySelectorAll('.like_post , .box_like_hotpost, .like_artist').forEach(button => {
+                    button.addEventListener('click', function() {
+                        const icon = this.querySelector('i');
+                        
+                        if (icon.classList.contains('fa-regular')) {
+                            icon.classList.remove('fa-regular');
+                            icon.classList.add('fa-solid');
+                        } else {
+                            icon.classList.remove('fa-solid');
+                            icon.classList.add('fa-regular');
+                        }
+                    });
+        });
+    </script>
+
+    <!-- to top -->
+    <script>
+        $('.totop').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({ scrollTop: 0 }, 1200); 
+          // ตรงเลข 1200 ปรับตามความเร็วที่ต้องการ (หน่วยเป็นมิลลิวินาที)
+        });
+    </script>
+
+</body>
+</html>
